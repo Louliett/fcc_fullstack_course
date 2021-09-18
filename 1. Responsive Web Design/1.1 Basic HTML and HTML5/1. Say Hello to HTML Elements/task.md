@@ -4,7 +4,10 @@ Welcome to freeCodeCamp's HTML coding challenges. These will walk you through we
 
 First, you'll start by building a simple web page using HTML. You can edit code in your code editor, which is embedded into this web page.
 
-Do you see the code in your code editor that says <h1>Hello</h1>? That's an HTML element.
+Do you see the code in your code editor that says 
+                <h1>Hello</h1>
+? 
+That's an HTML element.
 
 Most HTML elements have an opening tag and a closing tag.
 
