@@ -10,26 +10,18 @@ function smallestCommons(arr) {
     let commonDivisors = [];
   
     for (let i = 0; i < primes.length; i++) {
-      console.log('prime value', primes[i]);
       found = originalArr.find(element => element % primes[i] === 0);
   
       while (found !== undefined) {
-        console.log('\nwhile starts\n');
         commonDivisors.push(primes[i]);
-        console.log('pushed divident', primes[i]);
         originalArr = divideArrayElementsByNumber(originalArr, primes[i]);
-        console.log('divided the original array by', primes[i]);
-        console.log('modified array is', originalArr);
         found = originalArr.find(element => element % primes[i] === 0);
-        console.log('from this array found a new divident', found);
-        console.log('\nwhile ends\n');
         if(found === undefined) {
           break;
         }
       }
   
       if(originalArr.every(isEveryOne)) {
-        console.log('all dividents', commonDivisors)
         break;
       }
     }
