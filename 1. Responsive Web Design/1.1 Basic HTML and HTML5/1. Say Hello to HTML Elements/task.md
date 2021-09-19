@@ -20,5 +20,5 @@ Closing tags look like this:
 The only difference between opening and closing tags is the forward slash after the opening bracket of a closing tag.
 
 Each challenge has tests you can run at any time by clicking the "Run tests" button. When you pass all tests, you'll be prompted to submit your solution and go to the next coding challenge.
-
+<hr>
 To pass the test on this challenge, change your `h1` element's text to say `Hello World`.
