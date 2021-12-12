@@ -1,0 +1,17 @@
+{
+    "courses": [
+        {
+            "title": "Responsive Web Design"
+        },
+        {
+            "title": "JavaScript Algorithms and Data Structures"
+        },
+        {
+            "title": "Front End Development Libraries"
+        },        {
+            "title": "Data Visualization"
+        },        {
+            "title": "Back End Development and APIs"
+        }
+    ]
+}
